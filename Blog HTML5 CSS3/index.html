@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/misEstilos.css" />
+	<title>Blog</title>
+</head>
+<body>
+
+	<div id="cajaheader">
+
+		<header>
+			<div id="todoheader">
+
+			<div class="icon-logo"></div>
+			
+			<div id="contheader">
+
+			
+			<h1><span itemprop="name">Franklin Alfaro</span></h1>
+			<h2><span itemprop="title">Creativo Multimedia</span></h2>	
+			<nav>
+				<ul>
+					<li ><br /><a href="index.html" class="icon-inicio"><br />Inicio</a></li>
+					<li ><br /><a href="noticias.html" class="icon-noticias"><br /> Noticias</a></li>
+					<li ><br /><a href="sobremi.html" class="icon-user"><br /> Sobre mi</a></li>
+					<li ><br /><a href="contacto.html" class="icon-users"><br /> Contacto</a></li>
+				</ul>
+			</nav>
+			</div>
+			</div>
+		</header>
+
+	</div>
+	<div id="principal" itempscope itemtype="http://www.data-vocabulary.org/Person/">
+		
+		<div id="contenido">
+		<div id="sobremi">	
+		<figure><span itemprop="photo"><img src="photo/me.png" width="100px" height="100px"/></span></figure><p>Soy un creativo multimedia con formación academica en el ambiente web. Mi interés principal es la aplicación y combinación de los ultimos avances de las tecnologias con el fin de mejorar la experiencia del usuario final.</p>
+		</div>
+		<aside>
+			<p>Contenido Irrelevante</p>
+			<ul>
+				<li><a href="#"><time>2011-10-12 casa mia</time></a></li>
+				<li><a href="#"><time>2011-10-10 ejemplo</time></a></li>
+				<li><a href="#"><time>2011-10-10 ejemplo</time></a></li>
+				<li><a href="#"><time>2011-10-10 ejemplo</time></a></li>
+			</ul>
+		</aside>
+		
+		<section id="articulos">
+			<article class="post">
+				<time>12-01-15</time>
+				<h3>Cómo usar la etiqueta template en HTML5</h3>
+				<h4>HTML5,CSS3,JAVASCRIPT</h4>
+				<p>Actualmente el uso de templates es posible del lado del Frontend usando JavaScript. Para manejar dichos los templates tenemos algunos engines como:Jade, Swig, Mustache, Handlebars, etc.<br />
+				Gracias a la popularidad de estos motores de templates la WhatWG creó una etiqueta nueva en HTML5 poco conocida, que gracias a los Web Components se está volviendo cada vez más popular, la etiqueta template.</p>
+			</article>
+			<article class="post">
+				<time>12-01-15</time>
+				<h3>Casa Nueva</h3>
+				<h4>Construccion de una casa</h4>
+				<video width="400px" height="350px" controls="controls" preload="preload">
+					<source src="video/casa.mp4" type="video/mp4" />
+				</video>
+				<p>Existe en Casanueva una casona grande, popularmente conocida como "La Torre", en parte propiedad municipal, en la que se ubicó una orden monástica de los Agustinos hacia el 1600.<br />
+				Todo era campo, menos "La Torre". Los campesinos descansaban y comían en ella. A partir de entonces los alrededores se empezaron a poblar.</p>
+			</article>
+			<article class="post">
+				<time>12-01-15</time>
+				<h3>Musica</h3>
+				<h4>Audio english</h4>
+				<audio controls="controls">
+					<source src="audio/english.mp3" type="audio/mp3" />
+				</audio>
+				<p>La música, como toda manifestación artística, es un producto cultural. El fin de este arte es suscitar una experiencia estética en el oyente, y expresar sentimientos, emociones, circunstancias, pensamientos o ideas. La música es un estímulo que afecta el campo perceptivo del individuo; así, el flujo sonoro puede cumplir con variadas funciones (entretenimiento, comunicación, ambientación, etc.).</p>
+			</article>
+
+		</section>
+		</div>
+		<footer>
+			<h6>&copy; 2015 - Blog Franklin Alfaro</h6>
+			<script type="text/javascript">
+				if(localStorage.pagecount){
+					localStorage.pagecount = Number(localStorage.pagecount)+1;
+				}else{
+					localStorage.pagecount = 1;
+				}
+
+				document.write("Has visitado mi pagina: " + localStorage.pagecount + " veces");
+
+			</script>
+		</footer>
+	</div>
+</body>
+</html>
