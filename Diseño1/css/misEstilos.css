@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'FKtitulo';
+    src: url('../fonts/BLACKR-webfont.eot');
+    src: url('../fonts/BLACKR-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BLACKR-webfont.woff') format('woff'),
+         url('../fonts/BLACKR-webfont.ttf') format('truetype'),
+         url('../fonts/BLACKR-webfont.svg#black_roseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+	background: #EBEBEB;
+	border-top: 3px solid #D68F24;
+	font-size: 16px;
+}
+header
+{
+	padding: 40px 40px 10px; 40px;
+	position: relative;
+}
+header figure, header h1, header nav
+{
+	display: inline-block;
+}
+header figure
+{
+	margin: 0;
+	padding-right: 10px;
+}
+header h1
+{
+	color: #4F6271;
+	font-family: "FKtitulo";
+	font-size: 3.5em;
+	left: 130px;
+	margin: 0;
+	position: absolute;
+	top: 45px;
+
+}
+header nav
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 70px;
+	right: 10px;
+}
+nav ul
+{
+	margin: 0;
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a
+{
+	background: linear-gradient(#5A718E, #344252);
+	border-radius: 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 0.5em 0.4em;
+}
+nav ul li a:hover
+{
+	background: linear-gradient(#F9A134, #C54E22);
+}
+#principal
+{
+	margin: 0 auto;
+	min-width: 800px;
+	width: 80%;
+}
+#centroprincipal
+{
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	position: relative;
+}
+#centroprincipal article
+{
+	background: linear-gradient(#4B545E, #282E32);
+	border-radius: 20px;
+	color: white;
+	padding: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 30%;
+}
+#centroprincipal article h3
+{
+	font-family: "FKtitulo";
+	font-size: 3em;
+	margin: 0;
+}
+#centroprincipal article p
+{
+	margin: 0;
+	padding: 0;
+}
+
+#centroprincipal #imgprincipal
+{
+	width: 66%;
+	height: 300px;
+	margin: 0 0 0 34%;
+}
+#centroprincipal article, #centroprincipal #imgprincipal
+{
+	display: inline-block;
+}
+#centroprincipal #imgprincipal img
+{
+	width: 100%;
+	height: 300px;
+}
+#contenido
+{
+	position: relative;
+}
+#contenido h3, #contenido p
+{
+	display: inline-block;
+	margin: 0;
+
+}
+#contenido h3
+{
+	background: #EBEBEB;
+	left: 0;
+	padding: 0.2em 0.5em 0 0.5em; 
+	position: absolute;
+	top: 0;
+}
+#contenido p
+{
+	width: 100%;
+	border-bottom: 1px solid grey;
+	padding: 0;
+	position: absolute;
+	top: 1em;
+	right: 0;
+}
