@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'FKfuente';
+    src: url('../fonts/PTF55F-webfont.eot');
+    src: url('../fonts/PTF55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PTF55F-webfont.woff') format('woff'),
+         url('../fonts/PTF55F-webfont.ttf') format('truetype'),
+         url('../fonts/PTF55F-webfont.svg#pt_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a
+{
+	color: #4c2f04;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #b11d1d;
+	text-decoration: underline;
+}
+body
+{
+	background: url('../img/fondo.png') #e2cb95;
+	font-family: "FKfuente";
+	color: #4c2f04;
+}
+h1, h2, h3, h4, h5
+{
+	color: #b11d1d;
+	text-decoration: none;
+	font-style: italic;
+
+}
+#bloqueDerecho
+{
+	border-top: 6px solid #b11d1d;
+	float: right;
+	width: 70%;
+}
+#bloqueDerecho #destacado #primero
+{
+	margin: 0;
+	max-height: 528px;
+	padding: 0;
+	position: relative;
+}
+#bloqueDerecho #destacado #primero img
+{
+	width: 100%;
+	max-height: 528px;
+}
+
+#bloqueDerecho #destacado article hgroup
+{
+	border-left: 2em solid #b11d1d;
+	left: 0;
+	position: absolute;
+	top: 2em;
+	padding-left: 1em;
+}
+#bloqueDerecho #destacado article hgroup h1,
+#bloqueDerecho #destacado article hgroup h2
+{
+	color: white;
+	margin: 0;
+}
+#bloqueDerecho #destacado #medio
+{
+	background: rgba(216,193,161,0.7);
+	color: black;
+	padding: 2em 2em 2em 7em;
+	position: relative;
+}
+#bloqueDerecho #destacado #medio figure
+{
+	position: absolute;
+	top: 2em;
+	left: 0;
+	width: 61px;
+}
+#bloqueDerecho #destacado #medio p:nth-child(2)
+{	
+	color: black;
+	font-style: italic;
+	border-bottom: 1px solid black;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+}
+#bloqueDerecho #contenido
+{
+	background: rgba(247,237,219,0.7);
+	overflow: hidden;
+}
+#bloqueDerecho #contenido .articulos
+{
+	width: 30%;
+	float: left;
+	margin-left: 15px;
+	text-align: left;
+}
+#bloqueDerecho #contenido .articulos a
+{
+	color: #b11d1d;
+}
+#bloqueIzquierdo
+{
+	border-top: 6px solid #b11d1d;
+	float: left;
+	width: 250px;
+}
+#bloqueIzquierdo figure
+{
+	margin: 0;
+	padding: 2em 0 2em 2em;
+}
+#bloqueIzquierdo figure img
+{
+	width: 200px;
+}
+#bloqueIzquierdo header
+{
+	background: #faf3ed;
+	padding-bottom: 1em;
+}
+#bloqueIzquierdo header nav 
+{
+	text-align: center;
+}
+#bloqueIzquierdo header nav ul
+{
+	list-style: none;
+	padding: 0;
+	width: 180px;
+	padding-left: 2em;
+}
+#bloqueIzquierdo header nav ul li 
+{
+	padding: 0.3em 2em;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	transition: background 1s;
+}
+#bloqueIzquierdo header nav ul li:hover 
+{
+	background: linear-gradient(#e8e6da, #DFBA93);
+}
+#bloqueIzquierdo header nav ul .actual  
+{
+	background: linear-gradient(#e8e6da, #DFBA93);
+}
+#bloqueIzquierdo aside #pedido
+{
+	background: #b11d1d;
+	padding: 2em 0;
+	
+}
+#bloqueIzquierdo aside
+{
+	color: white;
+	margin: 0 auto;
+	width: 230px;
+}
+#bloqueIzquierdo aside p
+{
+	margin: 0;
+	text-align: center;
+
+}
+#general
+{
+	margin: 0 auto;
+	min-width: 1024px;
+	position: relative;
+	width: 80%;
+
+}
+#general footer
+{
+	position: relative;
+}
+#general footer figure img
+{
+	width: 100px;		
+}
+#general footer #pfooter
+{
+	color: black;
+	position: absolute;
+	right: 0;
+	text-shadow: 1px 1px 0 white;
+	top: 0;
+}
+#general footer #pfooter p:first-child
+{
+	margin-bottom: 0;
+}
+#general footer #pfooter p:last-child
+{
+	margin-top: 0;
+}
+#imgfondo
+{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}

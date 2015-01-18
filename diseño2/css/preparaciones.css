@@ -1,0 +1,38 @@
+#bloqueDerecho #headerderecho
+{
+	background-color: #b11d1d;
+	color: white;
+	width: 100%;
+}
+#bloqueDerecho #headerderecho article
+{
+	padding: 1em; 
+}
+#bloqueDerecho #headerderecho article h2
+{
+	color: white;
+}
+#bloqueDerecho #headerderecho img
+{
+	height: 200px;
+	width: 100%;
+}
+#bloqueDerecho #articulosPreparaciones
+{
+	background: rgba(216,193,161,0.7);
+}
+#bloqueDerecho #articulosPreparaciones .iguales figure
+{
+	float: left;
+	max-height: 144px;
+	margin: 0;
+	margin: 1em;
+	border: 2px white solid;
+}
+#bloqueDerecho #articulosPreparaciones .iguales div
+{
+	border-bottom: 1px solid grey;
+	padding-bottom: 2em	0;
+	overflow: hidden;
+	margin: 0 2em;
+}

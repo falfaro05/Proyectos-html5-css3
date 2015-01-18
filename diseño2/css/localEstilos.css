@@ -1,0 +1,26 @@
+#bloqueDerecho #headerderecho
+{
+	background-color: #b11d1d;
+	color: white;
+	width: 100%;
+}
+#bloqueDerecho #headerderecho article
+{
+	padding: 1em; 
+}
+#bloqueDerecho #headerderecho article h2
+{
+	color: white;
+}
+#bloqueDerecho #headerderecho img
+{
+	height: 200px;
+	width: 100%;
+}
+#bloqueDerecho #articulosEventos
+{
+	background: rgba(247,237,219,0.7);
+	text-align: center;
+	padding: 2em 0;
+}
+
