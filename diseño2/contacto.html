@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/misEstilos.css" />
 	<link rel="stylesheet" type="text/css" href="css/contactoEstilos.css" />
+	<script type="text/javascript" src="js/scriptcontacto.js"></script>
 </head>
 <body>
 
@@ -64,7 +65,18 @@
 			</div>
 			<section id="articulosEventos">
 
+				<form action="php/receptor.php" method="post" onsubmit="return verificador();">
+
+					<ul>
+						<li><label for="nombre">Nombre </label><input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre..." required></li>
+						<li><label for="apellido">Apellido </label><input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido..." required></li>
+						<li><label for="email">Email </label><input type="email" name="email" id="email" placeholder="Ingresa tu email..." required></li>
+						<li><label for="mensaje">Mensaje </label></li>
+						<li><textarea name="mensaje" id="mensaje" placeholder="Ingresa tu comentario..." cols="70" rows="7"></textarea></li>
+						<li><input type="submit"></li>
+					</ul>
 				
+				</form>
 			
 			</section>
 			
