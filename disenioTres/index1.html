@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>diseño3</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/movil.css" media="screen and (max-width:400px) and (min-width:1px)" />
+	<link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (min-width:401px) and (max-width:800px)" />
+	<link rel="stylesheet" type="text/css" href="css/PC.css" media="screen and (max-width:1200px) and (min-width:801px)" />
+	<link rel="stylesheet" type="text/css" href="css/PCHD.css" media="screen and (min-width:1201px) and (max-width:3600px)" />
+	<!--<script type="text/javascript">
+		$(document).ready(inicio)
+
+		function inicio(){
+
+			$("select").change(cambiacss)
+			if(window.innerWidth <= 400){
+				$("plantilla").html('<link rel="stylesheet" type="text/css" href="css/movil.css" />');
+			}
+			if(window.innerWidth > 400 && window.innerWidth <= 800){
+				$("plantilla").html('<link rel="stylesheet" type="text/css" href="css/tablet.css" />');
+			}
+			if(window.innerWidth > 800 && window.innerWidth <= 1200){
+				$("plantilla").html('<link rel="stylesheet" type="text/css" href="css/PC.css" />');
+			}
+			if(window.innerWidth > 1200){
+				$("plantilla").html('<link rel="stylesheet" type="text/css" href="css/PCHD.css" />');
+			}
+		}	
+
+		function cambiacss(){
+
+			var plantilla = document.getElementById("select").value;
+
+			$("plantilla").html('<link rel="stylesheet" type="text/css" href="css/'+ plantilla + '.css" />')
+			
+		}
+	
+
+	</script>
+	<plantilla>
+		
+	</plantilla>	-->
+</head>
+<body>
+
+	<select name="resolucion" id="select">
+		<option value="" selected="selected">Selecciona una plantilla</option>
+		<option value="PC">Plantilla PC</option>
+		<option value="PCHD">Pantalla alta definicion</option>
+		<option value="movil">Plantilla para movil</option>
+		<option value="tablet">Plantilla para tablet</option>
+	</select>
+	<hr />
+	
+	<div id="general">
+
+		<header>
+			<figure>
+				<img src="img/logo.png">
+			</figure>
+			<div id="tituloIndex">
+				<h1>Primer Diseño Responsive</h1>
+				<h2>Franklin Alfaro</h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>	
+
+			</nav>
+
+		</header>
+		<section>
+
+			<div id="baner">
+				<img src="img/baner.jpg">
+				<div id="contenidoBaner">
+					<h2>Titulo Baner</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+
+			<div id="articulos">
+			<article>
+				<img src="img/prueba.jpg">
+				<h3>Titulo destacado</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article>
+
+			<article>
+				<img src="img/prueba.jpg">
+				<h3>Titulo destacado</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article>
+
+			<article>
+				<img src="img/prueba.jpg">
+				<h3>Titulo destacado</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article>
+
+			</div>
+
+
+		</section>
+
+
+		<footer>
+
+			<h6>&copy; 2015 Franklin Alfredo Alfaro</h6>
+
+		</footer>
+
+	</div>
+
+</body>
+</html>

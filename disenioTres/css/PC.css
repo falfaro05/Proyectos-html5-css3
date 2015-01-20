@@ -1,0 +1,114 @@
+body
+{
+	background: linear-gradient(#767676, #E1E1E1);
+	font-size: 16px;
+}
+#general
+{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+#general header figure
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+#general header figure img
+{
+	width: 100px;
+
+}
+#general header #tituloIndex
+{
+	margin: 1em 0 0 120px;
+	width: 600px;
+}
+#general header #tituloIndex h1, 
+#general header #tituloIndex h2
+{
+	margin: 0;
+}
+#general header nav
+{
+	width: 500px;
+	text-align: center;
+	margin: 1em 0 1em 50px;
+}
+#general header nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#general header nav ul li
+{
+	border-right: 1px dotted white;
+	border-radius: 10px 0 0 10px;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	transition: background 1s;
+}
+#general header nav ul li a
+{
+	color: white;
+	text-decoration: none;	
+	text-align: center;
+}
+#general header nav ul li:hover
+{
+	background: rgba(255,255,255,0.5);
+}
+
+/************ Hasta aquí termina 
+			  el header.
+			  Continuamos con el contenido	***********/
+#general section
+{
+	position: relative;
+}
+#general section #baner
+{
+	height: 230px;
+	width: 100%;
+	position: relative;
+	margin-bottom: 1em; 
+}
+#general section #baner img
+{
+	width: 100%;
+}
+#general section #baner #contenidoBaner
+{
+	color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#general section #articulos
+{
+	overflow: hidden;
+}
+#general section #articulos article
+{
+	float: left;
+	padding: 0 0.5em;
+	width: 32%;
+}
+#general section #articulos article:first-child
+{
+	padding-left: 0;
+}
+#general section #articulos article:last-child
+{
+	padding-right: 0;
+}
+#general section #articulos article img
+{
+	width: 100%;
+}

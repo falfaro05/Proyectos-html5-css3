@@ -1,0 +1,87 @@
+body
+{
+
+}
+#general
+{
+	border: 1px solid blue;
+	margin: 0 auto;
+	width: 600px;
+	overflow: hidden;
+}
+#general header
+{
+	width: 180px;
+	float: left;
+}
+#general header figure
+{
+	margin: 0 0 0 2em;
+	padding: 0.3em;
+	width: 110px;
+}
+#general header figure img
+{
+	width: 100px;
+}
+#general header #tituloIndex h1
+{
+	font-size: 1.3em;
+	margin: 0;
+	text-align: center;
+}
+#general header #tituloIndex h2
+{
+	font-size: 1em;
+	font-style: italic;
+	margin: 0;
+	text-align: center;
+}
+#general header nav ul
+{
+	list-style: none;
+	margin: 2em 0 0 0.7em;
+	padding: 0;	
+	text-align: center;
+}
+#general header nav ul li
+{
+	border: 1px solid black;
+	border-radius: 10px;	
+	margin: 0.3em 0;
+}
+#general header nav ul li a
+{
+	border-radius: 10px;
+	color: blue;
+	display: block;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+#general header nav ul li a:hover
+{
+	background: #D40000;
+	color: white;
+}
+#general section
+{
+	width: 400px;
+	margin: 0 0 0 200px;
+	padding: 0;
+
+}
+#general section #baner img
+{
+	display: none;
+}
+#general footer
+{
+	text-align: center;
+}
+#general section #articulos article img
+{
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 40px;
+}
