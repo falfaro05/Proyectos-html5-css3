@@ -1,0 +1,140 @@
+
+body{
+
+	background-color: black;
+	color: white;
+}
+
+#contenido{
+
+	max-width: 1000px;
+	min-width: 600px;
+	margin: 30px auto;
+}
+
+.todos{
+	width: 220px;
+	height: 160px;
+	float: left;
+	border: 1px white solid;
+	margin: 5px 5px;
+	text-align: center;
+	
+
+}
+
+#uno{
+	background-color: #24B279;
+
+}
+
+#listul{
+
+	list-style-position: inside;
+	position: relative;
+	left: 30px;
+	text-align: left;
+	
+}
+
+#dos{
+	background-color: #E68A2E;
+
+}
+
+.derecha{
+
+	text-align: right;
+	margin-right: 5px;
+	
+}
+
+p{
+
+	margin: 0px;
+
+}
+
+#important{
+
+	margin-top: 10px;
+}
+
+#pdos{
+	margin-top: 70px;
+	
+}
+
+#pdos span{
+	font-size: 35px;
+
+}
+
+#tres ol{
+
+	list-style-position: inside;
+	text-align: left;
+}
+
+#tres{
+
+	background-color: #E68A2E; 
+}
+
+#cuatro{
+
+	background-color: #E6E6E6;
+	color: black;
+	font-size: 40px;
+	
+}
+
+#cuatro p{
+
+	text-align: right;
+}
+
+
+#cinco{
+
+	background-color: #E68A2E;
+	padding-top: 20px;
+	width: 452px;
+	height: 140px;
+}
+
+#seis{
+
+	background-color: #24B279;
+}
+
+#seis h2{
+
+	margin: 0px;
+}
+
+.tab{
+
+	margin: 0 auto;
+	border-collapse: collapse;
+	padding-left: 10px;
+	
+}
+
+.tab th{
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px white solid;
+}
+
+#siete{
+
+	background-image: url("santiago.png");
+	background-repeat: no-repeat;
+	text-align: left;
+	font-size: 25px;
+		
+}
+
+
+
